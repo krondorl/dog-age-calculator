@@ -1,0 +1,42 @@
+:root {
+    --clr-title-bg: red;
+    --clr-title-fg: white;
+    --ff-main: sans-serif;
+    --fw-bold: bold;
+    --fs-body: 1.25em;
+    --lh-body: 1.5;
+}
+
+html {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body {
+    font-family: var(--ff-main);
+    font-size: var(--fs-body);
+    line-height: var(--lh-body);
+    margin-top: 0;
+    padding: 0 .5em;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+input, button {
+    font-size: var(--fs-body);
+}
+
+.title {
+    background: var(--clr-title-bg);
+    color: var(--clr-title-fg);
+    margin-top: 0;
+}
+
+.footer {
+    border-top: 1px solid var(--clr-title-bg);
+    margin-top: 2em;
+    padding-top: 1em;
+}

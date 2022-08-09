@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Age Calculator</title>
+  <link rel="stylesheet" href="/scss/main.scss">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1 class="title">Dog Age Calculator</h1>
+    </header>
+    <main class="main">
+      <div>
+        <input id="years" type="text" placeholder="Enter dog age">
+        <button id="calculate-button" type="button">Calculate</button>
+      </div>
+      <div>
+        <p>Please enter number 1 or greater.</p>
+        <p>Your dog would be: <span id="result"></span> years old!</p>
+      </div>
+    </main>
+    <footer class="footer">
+      Made by Adam Burucs in 2022. Inspired by <a href="https://www.science.org/content/article/here-s-better-way-convert-dog-years-human-years-scientists-say">a Science article</a> from 2019.
+    </footer>
+  </div>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>
