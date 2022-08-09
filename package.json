@@ -1,5 +1,6 @@
 {
-  "name": "website-starter-template",
+  "name": "dog-age-calculator",
+  "description": "Modern formula for calculating dog age",
   "private": true,
   "version": "0.0.0",
   "scripts": {
